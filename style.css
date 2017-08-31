@@ -6,12 +6,6 @@ body {
   padding-top: 5rem;
 }
 
-.top-right-links *:not(:first-of-type)::after {
-      padding: .5rem .5rem!important;
-      content: ' | ';
-}
-
-.top-right-links {
 .top-right-links a {
   margin-left: 1rem;
   padding-bottom:1rem;

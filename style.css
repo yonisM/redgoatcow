@@ -12,6 +12,8 @@ body {
 }
 
 .top-right-links {
+.top-right-links a {
+  margin-left: 1rem;
   padding-bottom:1rem;
 }
 
@@ -76,6 +78,8 @@ footer .information li {
 video {
     width: 100%;
     height: auto;
+    border-style: solid;
+  border-width: thin;
 }
 
 .paragraph-text p {

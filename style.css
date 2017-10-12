@@ -1,10 +1,19 @@
-nav {
-  font-family:'Courier New';
-}
+
 
 body {
-  padding-top: 5rem;
-  background-image: url("thumbnail.png");
+  padding-top: 2rem;
+ 
+}
+.backgroundIMG {
+    background-image: url('img/backgroundimage1.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    
 }
 
 .top-right-links a {
@@ -137,19 +146,24 @@ h-thin {
 .monetize-fashion {
   text-align:center;
   color: white;
+    font-weight: bold;
 }
 
 .monetize-fashion h1 {
-  font-size: 3rem;
+  font-size: 4rem;
+    font-family: fantasy;
 }
 
 .monetize-fashion h2 {
   padding-bottom: 3rem;
+    font-family: fantasy;
+    font-size: 2rem;
 }
 
 .login-title {
   text-align: center;
   padding-bottom: 1rem;
+   
 }
 
 .btn-red {
@@ -162,15 +176,29 @@ h-thin {
 .btn-green {
   background-color: #43bc64;
   color: white;
-  width: 12rem;
+  width: 16rem;
 
+}
+.btn-green:hover{
+   color: #fff;
+    background: #27ce53;
+}
+.btn-red {
+  
+  color: white;
+  width: 16rem;
+
+}
+.btn-red:hover{
+   color: #fff;
+    background: #ff1e0a;
 }
 
 hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid black;
+    border: 1px solid black;
     margin: 1em auto;
     padding: 0;
     width: 70%;
@@ -179,4 +207,13 @@ hr {
 
 .whitespace {
   padding : 5rem;
+}
+#allInputFieldsStyling{
+    padding:10px;
+    border:1px solid black;
+    border-radius: 0;
+    
+}
+#divider{
+    border:0.5px solid black;
 }

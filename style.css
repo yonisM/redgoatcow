@@ -150,14 +150,14 @@ h-thin {
 }
 
 .monetize-fashion h1 {
-  font-size: 4rem;
-    font-family: fantasy;
+  font-size: 5rem;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .monetize-fashion h2 {
   padding-bottom: 3rem;
-    font-family: fantasy;
-    font-size: 2rem;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3rem;
 }
 
 .login-title {

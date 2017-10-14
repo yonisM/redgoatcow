@@ -11,9 +11,15 @@ body {
     background-size: cover;
     position: relative;
     color: white;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "antic slab", Courier, monospace;
     font-size: 20px;
     
+}
+
+.box {
+    background-color: white; 
+    color: black; 
+    border: 3px black solid
 }
 
 .top-right-links a {

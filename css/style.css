@@ -17,7 +17,7 @@ body {
 }
 
 .top-right-links a {
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   padding-bottom:1rem;
 }
 
@@ -45,9 +45,11 @@ body {
 }
 
 
+/*
 .thumbnail img {
   margin:1rem;
 }
+*/
 
 .thumbnails .row {
   margin-bottom:2rem;

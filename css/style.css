@@ -111,11 +111,17 @@ video {
 .btn-start {
   width: 20rem;
   text-align: center;
+   background-color: white;
+    
+}
+#btn-start-border{
+    border: 1px solid black;
 }
 
 .btn-middle {
   text-align: center;
   padding-bottom: 1.5rem;
+   
 }
 
 .form-container {
@@ -219,6 +225,7 @@ hr {
 #divider{
     border:0.5px solid black;
 }
+<<<<<<< HEAD
 li.nav-item {
     padding-left: 10px;
     padding-right: 10px;
@@ -544,4 +551,29 @@ p.checkout
  
     margin-top: 20px;
 }
+
 }
+=======
+.partner-body{
+    margin-top: 50px;
+}
+@media screen and (max-width: 320px)
+{
+   
+    .btn-start{
+        width: 15rem;
+    }
+}
+.box-margin{
+    margin-bottom: 10px;
+    
+}
+.box-margin h3{
+    margin-top: 10px;
+}
+#icon-font{
+    font-size: 5rem; 
+    font-weight: bold;
+}
+
+>>>>>>> ce8c4cef711b9954b54ccdc9a56157074ba8ffde

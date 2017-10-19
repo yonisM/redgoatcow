@@ -111,17 +111,11 @@ video {
 .btn-start {
   width: 20rem;
   text-align: center;
-   background-color: white;
-    
-}
-#btn-start-border{
-    border: 1px solid black;
 }
 
 .btn-middle {
   text-align: center;
   padding-bottom: 1.5rem;
-   
 }
 
 .form-container {
@@ -225,7 +219,6 @@ hr {
 #divider{
     border:0.5px solid black;
 }
-<<<<<<< HEAD
 li.nav-item {
     padding-left: 10px;
     padding-right: 10px;
@@ -293,6 +286,24 @@ li.nav-item {
 }
 }
 @media screen and (max-width: 1200px) and (min-width: 768px) {
+	.control-label.col-sm-2 {
+	font-size: 12px;
+	padding: 0 0 0 5px;
+}
+	.box-pad {
+	padding: 0px !important;
+}
+.control-label.col-sm-2 {
+	font-size: 12px;
+}
+	.social-btn {
+	width: 100%;
+	font-size: 14px !important;
+	text-align: center !important;
+	padding: 0 0 0 -1px;
+	line-height: 18px !important;
+	padding: 10px 0px !important;
+}
 .container.workshop
 {
 	width:100% !important;
@@ -490,6 +501,7 @@ input.btn.btn-back {
 	font-size:18px;
 }
 @media screen and (max-width: 767px) and (min-width: 300px) {	
+
 	.form-control.date-form {
     width: 70% !important;
 }
@@ -551,29 +563,12 @@ p.checkout
  
     margin-top: 20px;
 }
-
 }
-=======
-.partner-body{
-    margin-top: 50px;
+@media screen and (max-width: 480px) and (min-width: 320px) {
+	.box-pad {
+	padding: 0px;
 }
-@media screen and (max-width: 320px)
-{
-   
-    .btn-start{
-        width: 15rem;
-    }
+.mx-auto h1 {
+	font-size: 30px;
 }
-.box-margin{
-    margin-bottom: 10px;
-    
 }
-.box-margin h3{
-    margin-top: 10px;
-}
-#icon-font{
-    font-size: 5rem; 
-    font-weight: bold;
-}
-
->>>>>>> ce8c4cef711b9954b54ccdc9a56157074ba8ffde

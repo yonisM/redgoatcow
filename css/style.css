@@ -225,7 +225,7 @@ hr {
 #divider{
     border:0.5px solid black;
 }
-.brand-body{
+.partner-body{
     margin-top: 50px;
 }
 @media screen and (max-width: 320px)
@@ -235,3 +235,15 @@ hr {
         width: 15rem;
     }
 }
+.box-margin{
+    margin-bottom: 10px;
+    
+}
+.box-margin h3{
+    margin-top: 10px;
+}
+#icon-font{
+    font-size: 5rem; 
+    font-weight: bold;
+}
+

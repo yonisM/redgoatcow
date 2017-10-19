@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/tether.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <script src="js/tether.min.js"></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">Monetize Fashion</a>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Store</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="startyourbrand.html">Start Your Brand</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="partners.html">Partners</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="workshop.html">Workshop</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+ <div class="container-fluid check">
+ <p class="checkout">Checkout</p>
+
+
+  <div class="row">
+    <div class="col-sm-4 pay" ><div class="circle"><p>1</p></div></div>
+    <div class="col-sm-4 pay" ><div class="circle"><p>2</p></div></div>
+    <div class="col-sm-4 pay" ><div class="circle circle3"><p>3</p></div></div>
+  </div>
+<div class="row payment-summary"><p>Payment Summary</p></div>
+<div class="row total-price"><p>Total Price <span>$34.98</span></p></div>
+<div class="row payment-card"><p>Payment Card</p></div>
+<div class="form-div">
+<form>
+<div class="form-group">
+  
+  <span>Type of Card</span><select class="form-control" id="sel1">
+    <option>--Select card Type--</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+  </select>
+</div>
+  <div class="form-group">
+    
+    <div><span>Cardholder's Name</span><input type="email" class="form-control" id="email"></div>
+  </div>
+  <div class="form-group">
+    <span>Card Number</span><input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="form-group">
+  
+  <span>Expiry Date</span><select class="form-control date-form" id="sel1">
+  <option>--Choose Month--</option>
+    <option>Jan</option>
+    <option>Feb</option>
+    <option>March</option>
+    <option>April</option>
+  </select>
+  <select class="form-control date-form " id="sel">
+   <option>--Choose Year--</option>
+    <option>2000</option>
+    <option>2001</option>
+    <option>2002</option>
+    <option>2003</option>
+  </select>
+</div>
+  <div class="form-group">
+  
+  <span>Security Number</span><input type="password" class="form-control date-form-security" id="pwd">
+  <div class="card-img"><img src="./img/card.png"><span class="card-digit-disc">Last three digits on the reverse side of card.</span></div>
+  </select>
+  </div>
+  </form>
+  </div>
+  <div class="row billing-address"><p>Billing Address</p></div>
+  <div class="row billing-details">
+  <p>The address sholud be the same as that on your card statement</p></div>
+  <div class="form-div2">
+<form>
+<div class="form-group">
+  <div class="checkbox">
+  <label><input type="checkbox"class="del-check"value="">Check if billing address same as delevery address</label>
+
+</div>
+
+</div>
+<div class="form-group">
+<span>Address</span><input type="text" class="form-control">
+<p></p>
+<span></span><input type="text" class="form-control" id="email">
+<p></p>
+<span>City/Region</span><input type="text" class="form-control">
+<p></p>
+<span>Zip/Post Code</span><input type="text" class="form-control date-form">
+<p></p>
+ <span>Country</span><select class="form-control" id="sel1">
+ <option>--Select country--</option>
+    <option>USA</option>
+    <option>China</option>
+    <option>Japan</option>
+    
+  </select>
+</div>
+ <input type="button" class="btn btn-back" value="Back">
+  <input type="submit" class="btn btn-submit" value="Submit and Pay">
+</form>
+<div class="shop-link">
+<p><a href="#">Back to Shop</a></p>
+<p><a href="#">Back to Cart</a></p>
+</div>
+  </div>
+<br>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Information</h3>
+          <ul class="information">
+            <li>About Us</li>
+            <li>Delivery Information</li>
+            <li style="color: red">Sign up to our promotional events</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h3>Location</h3>
+          <ul class="information">
+            <li>First line of address</li>
+            <li>Town</li>
+            <li>Postcode</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h3>Links</h3>
+          <div class="row links">
+            <div class="col-2 col-lg-2"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></div>
+            <div class="col-2  col-lg-2"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></div>
+            <div class="col-2  col-lg-2"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></div>
+            <div class="col-2  col-lg-2"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></div>
+            <div class="col-2 col-lg-2"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></div>
+            <div class="col-2  col-lg-2"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></div>
+          </div>
+        </div>
+      </div>
+
+        <div class="row">
+          <div class="col-sm-12">
+          
+            <h3>Also Visit</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-lg-4">
+            Manufacturer.monetizefashion.co.uk
+          </div>
+          <div class="col-md-12 col-lg-4">
+            boutique.monetizefashion.co.uk
+          </div>
+          <div class="col-md-12 col-lg-4">
+            designer.monetizefashion.co.uk
+          </div>
+        </div>
+    </div>
+
+  </footer>
+  <div class="copyright">
+    &copy; Your Website 2017
+  </div>
+</body>
+</html>

@@ -16,6 +16,10 @@ body {
     
 }
 
+.bottom-buttons{
+    margin-top:40px; margin-bottom: 20px;
+}
+
 .top-right-links a {
   margin-left: 0.5rem;
   padding-bottom:1rem;
@@ -314,10 +318,7 @@ li.nav-item {
 	    vertical-align: middle;
 		    margin-right: 10px;
 }
-	.check
-	{
-		margin-top:35px;
-	}
+
 	p.checkout {
     font-size: 40px;
     /* font-weight: 600; */

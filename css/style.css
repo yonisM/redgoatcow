@@ -20,6 +20,28 @@ body {
     margin-top:40px; margin-bottom: 20px;
 }
 
+.box-margin{
+    margin-bottom: 10px;
+    border: 1px solid black;
+    
+}
+
+
+.boxedheading{
+    margin-top: 10px;
+}
+
+
+box-margin h3{
+    margin-top: 10px;
+}
+#icon-font{
+    font-size: 5rem; 
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .top-right-links a {
   margin-left: 0.5rem;
   padding-bottom:1rem;
